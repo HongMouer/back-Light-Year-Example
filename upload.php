@@ -54,7 +54,7 @@ if ($newPath === false) {
         default:
             echo json_encode([
                 "status" => 1,
-                "ifno"   => '上传成功',
+                "info"   => '上传成功',
                 "url"    => $newPath,
             ]);
     }
