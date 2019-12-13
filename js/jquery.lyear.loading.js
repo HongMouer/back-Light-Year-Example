@@ -123,7 +123,8 @@
         
         this.destroy = function() {
             $this.children('.' + defaultClass).fadeOut(250, function() {
-                $(this).clone().remove();
+                $(window).off('resize.' + defaultClass);
+                $(this).remove();
             });
         }
         
