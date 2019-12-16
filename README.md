@@ -34,22 +34,29 @@
 #### 一些示例的截图
 
 下拉选择框插件bootstrap-select
+
 ![bootstrap-select](https://images.gitee.com/uploads/images/2019/1216/105808_aa8640a0_82992.png "搜狗截图20191216104737.png")
 
 图片裁剪插件cropper
+
 ![cropper](https://images.gitee.com/uploads/images/2019/1216/105905_ade7d333_82992.png "搜狗截图20191216105020.png")
 
 时间段选择器Date Range Picker
+
 ![Date Range Picker](https://images.gitee.com/uploads/images/2019/1216/105931_e6735b75_82992.png "搜狗截图20191216105054.png")
 
 dropzone上传插件
+
 ![dropzone](https://images.gitee.com/uploads/images/2019/1216/105959_80c3498f_82992.png "搜狗截图20191216105112.png")
 
 图标选择插件fontIconPicker
+
 ![fontIconPicker](https://images.gitee.com/uploads/images/2019/1216/110030_de46dddc_82992.png "搜狗截图20191216105141.png")
 
 日程管理插件
+
 ![fullcalendar](https://images.gitee.com/uploads/images/2019/1216/110057_f3993cf0_82992.png "搜狗截图20191216105158.png")
 
 树形菜单插件 ZTree
+
 ![ZTree](https://images.gitee.com/uploads/images/2019/1216/110127_9c2825c4_82992.png "搜狗截图20191216105657.png")
