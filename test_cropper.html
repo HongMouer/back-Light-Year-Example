@@ -31,6 +31,9 @@
     background-color: #fff;
     overflow: hidden;
 }
+.image-preview img {
+    vertical-align: top;
+}
 .preview-lg {
   height: 9rem;
   width: 16rem;
@@ -247,6 +250,10 @@ cropImage.prototype = {
         this.initPreview();
     },
     initPreview: function() {
+        this.active = false;
+        this.$imageInput.val('');
+        this.$imageName.text('');
+        this.$imageWrapper.empty();
         // 如果已有图片地址，初始化图片预览区域
         this.$imagePreview.empty();
         var url = this.$imageText.val();
