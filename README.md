@@ -30,6 +30,7 @@
 - malength                   字符输入控制插件
 - touchspin                  输入递增/递减组件。它支持鼠标滚轮和上/下键
 - daterangepicker            时间段选择器，非常好用
+- layer                      web弹层组件
 
 #### 一些示例的截图
 
