@@ -31,6 +31,10 @@
 - touchspin                  输入递增/递减组件。它支持鼠标滚轮和上/下键
 - daterangepicker            时间段选择器，非常好用
 - layer                      web弹层组件
+- bootstrap-treeview         树状插件
+- jquery.raty                评分插件
+- sliderVerification         滑块验证
+- imgVer                     图片滑块验证
 
 #### 一些示例的截图
 
