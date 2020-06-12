@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<title>文档列表 - 光年(Light Year Admin)后台管理系统模板</title>
+<title>搜索布局 - 光年(Light Year Admin)后台管理系统模板</title>
 <link rel="icon" href="favicon.ico" type="image/ico">
 <meta name="keywords" content="LightYear,光年,后台模板,后台管理系统,光年HTML模板">
 <meta name="description" content="LightYear是一个基于Bootstrap v3.3.7的后台管理系统的HTML模板。">
@@ -11,6 +11,17 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/materialdesignicons.min.css" rel="stylesheet">
 <link href="css/style.min.css" rel="stylesheet">
+<style>
+/*可作为基础属性使用*/
+.no-border-tb {
+    border-top: 0px;
+    border-bottom: 0px
+}
+.no-border-lr {
+    border-left: 0px;
+    border-right: 0px;
+}
+</style>
 </head>
   
 <body>
@@ -28,7 +39,7 @@
               <div class="col-md-10">
                 <div class="input-group" data-date-format="yyyy-mm-dd">
                   <input class="form-control" type="text" name="start_time" value="" placeholder="开始时间">
-                  <span class="input-group-addon">~</span>
+                  <span class="input-group-addon no-border-lr">~</span>
                   <input class="form-control" type="text" name="end_time" value="" placeholder="结束时间">
                 </div>
               </div>
@@ -112,7 +123,7 @@
 	  <div class="card">
 	    <div class="card-body">
           <form class="form-inline">
-		    <div class="form-group">
+		    <div class="form-group m-b-5">
 			  <div class="input-group">
                 <div class="input-group-btn search-bar">
                   <input type="hidden" name="search_field" id="search-field" value="title">
@@ -127,15 +138,15 @@
                 <input type="text" class="form-control" value="" name="keyword" placeholder="请输入关键词">
               </div>
 			</div>
-			<div class="form-group">
+			<div class="form-group m-b-5 m-l-5">
 			  <label for="range">时间</label>
               <div class="input-group">
                 <input class="form-control" type="text" name="start_time" value="" placeholder="开始时间">
-                <span class="input-group-addon">~</span>
+                <span class="input-group-addon no-border-lr">~</span>
                 <input class="form-control" type="text" name="end_time" value="" placeholder="结束时间">
               </div>
 			</div>
-			<div class="form-group">
+			<div class="form-group m-b-5 m-l-5">
 			  <label for="range">分类</label>
               <select name="type" class="form-control">
                 <option value="1">小说</option>
@@ -144,9 +155,9 @@
                 <option value="4">自传</option>
               </select>
 			</div>
-			<div class="form-group">
+			<div class="form-group m-b-5">
+              <button type="submit" class="btn btn-default">查询</button>
 			</div>
-            <button type="submit" class="btn btn-default">查询</button>
           </form>
 		</div>
 	  </div>
