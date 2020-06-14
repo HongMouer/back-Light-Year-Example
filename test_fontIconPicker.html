@@ -29,6 +29,7 @@
           
           <p>选择后可直接获取选择后的值。例如：<code>$("#icon-example").val();</code></p>
           <input type="text" id="icon-example" name="icon-example" />
+          <span id="show-mdi"></span>
           
         </div>
       </div>
@@ -61,6 +62,11 @@ jQuery(document).ready(function($) {
         font_element.setIcons(fontello_json_icons);
     }).fail(function() {
         console.error('字体图标配置加载失败');
+    });
+    
+    $(document).on('change', '#icon-example', function(){
+        console.log('fdsafdsa');
+        $('#show-mdi').html($(this).val());
     });
  
 });
