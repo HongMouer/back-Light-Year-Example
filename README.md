@@ -35,6 +35,7 @@
 - jquery.raty                评分插件
 - sliderVerification         滑块验证
 - imgVer                     图片滑块验证
+- bootstrap3-dialog          模态框增强插件
 
 #### 一些示例的截图
 
