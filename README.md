@@ -36,6 +36,9 @@
 - sliderVerification         滑块验证
 - imgVer                     图片滑块验证
 - bootstrap3-dialog          模态框增强插件
+- jstree                     树状结构插件
+- summernote                 富文本编辑器
+- fixedheadertable           固定表头或列插件
 
 #### 一些示例的截图
 

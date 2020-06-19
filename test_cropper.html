@@ -280,7 +280,7 @@ cropImage.prototype = {
     startCropper: function() {
         // 选择图片后初始化
         if (this.active) {
-            this.$image.cropper('replace', this.url);
+            this.$image.cropper('replace', this.imageUrl, true);
         } else {
             this.$image = $('<img src="' + this.imageUrl + '">');
             this.$imageWrapper.empty().html(this.$image);
@@ -299,7 +299,7 @@ cropImage.prototype = {
     },
     choose: function(e) {
         var $this = $(e.target);
-        var name = $this.attr('name');
+        var name  = $this.attr('name');
         
         if (!this.active) {
             return;
